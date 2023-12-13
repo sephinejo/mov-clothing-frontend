@@ -1,0 +1,21 @@
+.btn {
+  margin: auto;
+  padding: 1.3rem 5.5rem;
+  width: fit-content;
+  display: inline;
+  font-family: inherit;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--color-dark-grey);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--color-grey);
+}

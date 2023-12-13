@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5rem;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-item {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  cursor: pointer;
+}
+
+.footer-icon {
+  font-size: 1.8rem;
+}

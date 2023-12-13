@@ -1,0 +1,16 @@
+.menu {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.menu li a {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  font-size: 2rem;
+}

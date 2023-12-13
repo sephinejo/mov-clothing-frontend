@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&family=Montserrat:wght@300;400;500;600;700&family=Rethink+Sans:wght@400;500;600&family=Syncopate:wght@400;700&display=swap');
+
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-dark-grey: #4e4e4e;
+  --color-grey: #8e8e8e;
+  --color-light-grey: #eee;
+  --max-width: 1570px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+body {
+  width: 100vw;
+  height: 100%;
+  max-width: var(--max-width);
+  margin: auto;
+  font-family: 'Rethink Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.5rem;
+  color: var(--color-black);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

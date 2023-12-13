@@ -1,0 +1,41 @@
+.sustainability {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  margin: 8rem 0;
+  padding: 0 3rem;
+}
+
+.sustainability h2 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.sustainability h3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.sustainability p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.sustainability-imgs {
+  margin: 2rem auto;
+  width: 85rem;
+  height: auto;
+  display: grid;
+  grid-template-columns: 2fr 1.1fr;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.sustainability img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

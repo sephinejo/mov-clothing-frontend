@@ -1,0 +1,24 @@
+.newsletter {
+  font-family: inherit;
+  text-align: center;
+  margin: 7rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.newsletter h2 {
+  font-size: 4rem;
+}
+
+.newsletter p {
+  font-size: 2rem;
+}
+
+.newsletter input {
+  font-family: inherit;
+  font-size: 1.6rem;
+  border: 1px solid var(--color-black);
+  padding: 1.5rem 1.5rem;
+  outline: none;
+}
