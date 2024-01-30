@@ -1,0 +1,25 @@
+.sub-navigation {
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-black);
+  width: 100%;
+  height: 35rem;
+  position: fixed;
+  top: 8rem;
+  display: flex;
+  padding: 3rem 5rem;
+  gap: 10rem;
+}
+
+.sub-navigation-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.sub-navigation-item {
+  cursor: pointer;
+}
+
+.sub-navigation-item:hover {
+  color: var(--color-grey);
+}
